@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/user.png">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="con-form">
+            <form class="sing-in" action="">
+                <h2>Iniciar Sesión</h2>
+                <span>Use su coarreo y contraseña</span>
+                <div class="con-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="text" placeholder="Correo electrónico">
+                </div>
+                <div class="con-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="text" placeholder="Contraseña">
+                </div>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button class="btn">INICIAR SESIÓN</button>
+            </form>
+        </div>
+
+        <div class="con-form">
+            <form class="sing-up" action="">
+                <h2>Registrarse</h2>
+                <span>Use su coarreo electrónico para registrarse</span>
+                <div class="con-input">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="con-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="text" placeholder="Correo electrónico">
+                </div>
+                <div class="con-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="text" placeholder="Contraseña">
+                </div>
+                <button class="btn">REGISTRARSE</button>
+            </form>
+        </div>
+        <div class="con-welcome">
+            <div class="welcome-sign-up welcome">
+                <h3>¡Bienvenido!</h3>
+                <p>Ingrese sus datos para usar todas las funcionalidades del sitio</p>
+                <button class="btn" id="btn-up">Registrarse</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <h3>¡Hola!</h3>
+                <p>Regístrese para usar todas las funcionalidades del sitio</p>
+                <button class="btn" id="btn-in">Iniciar sesión</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
